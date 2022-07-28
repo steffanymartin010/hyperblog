@@ -1,5 +1,38 @@
 body{
     text-align: center;
     font-family: "Arial";
+}
+
+h1{
+    text-shadow: 0.1em 0.1em 0.05em rgba(51, 51, 51, 0.644);
     color: deeppink;
+}
+p{
+    color: darkslategray;
+    font-size: 18px;
+}
+
+.video{
+    width: 95%;
+    height: 310px;
+    margin: auto;
+    background: deepskyblue;
+    display:block;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow:  3px 3px 5px 6px #ccc;
+}
+.titulo h2{
+    width: 100%;
+    border-top: 20px solid deepskyblue;
+    height: 32px;
+    text-align: center;
+    color: darkslategray;
+    font-size: 30px;
+    text-shadow: 0.1em 0.1em 0.05em #ccc;
+}
+
+.video iframe{
+    margin: 5px;
+    border-radius: 15px;
 }
